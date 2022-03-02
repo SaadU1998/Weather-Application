@@ -45,7 +45,7 @@ const updateUI = (data) => {
 
   weatherInfo.innerHTML = `<h2 class="city">Weather in ${cityDetails.EnglishName}</h2>
         <h1 class="temp">${weather.Temperature.Metric.Value}&deg;C</h1>
-        <img src="icons/${weather.WeatherIcon}.svg" alt="" class="icon bg-white " />
+        <img src="icons/${weather.WeatherIcon}.svg" alt="" class="icon bg-white  " />
         <div class="description mt-2">${weather.WeatherText}</div>
         <div class="Region">Region: ${cityDetails.Region.EnglishName}</div>
         <div class="Time">Occasion: ${weather.LocalObservationDateTime}</div>
