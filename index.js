@@ -1,7 +1,7 @@
 
 // fetching apis
 
-const key= 'KwQ62Uy51pGQS2emF3uAdLgDsMvsGG5Y';
+const key= '5emicq9ME2s7qPqCsQq7rx8cm0aGRwBE';
 
 
 // to get the city api 
