@@ -51,6 +51,8 @@ const updateUI = (data) => {
         <div class="Time">Occasion: ${weather.LocalObservationDateTime}</div>
       </div>`;
 
+      document.body.style.backgroundImage = `url(https://source.unsplash.com/1600x900/?${cityDetails.EnglishName})`
+
 
  };
 
